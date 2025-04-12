@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payoo Login</title>
+
+    <!-- daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main class="flex justify-center items-center">
+      <div class="mockup-phone">
+        <div class="mockup-phone-display text-white grid place-content-center">
+          <form id="payoo-form">
+            <div class="card bg-base-100 w-sm">
+              <div class="card-body">
+                <fieldset class="fieldset">
+                  <label class="fieldset-label">Mobile Number</label>
+                  <input
+                    type="text"
+                    id="payoo-mobile"
+                    class="input text-black"
+                    placeholder="Enter Your Mobile Number"
+                  />
+                  <label class="fieldset-label">Pin Number</label>
+                  <input
+                    type="password"
+                    id="payoo-pin"
+                    class="input text-black"
+                    placeholder="Enter Pin"
+                  />
+                  <div><a class="link link-hover">Forgot password?</a></div>
+                  <button id="payoo-login" class="btn btn-neutral mt-4">
+                    Login
+                  </button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
