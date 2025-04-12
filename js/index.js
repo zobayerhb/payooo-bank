@@ -8,7 +8,7 @@ document
 
     if (mobileNumber === "12" && pinNumber === "1234") {
       console.log("you are loggin");
-      window.location.href = "/home.html";
+      window.location.href = "home.html";
     } else {
       alert("Your mobile number or pin worng");
     }
